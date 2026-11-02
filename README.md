@@ -1,41 +1,27 @@
-<!--
-  ╔══════════════════════════════════════════════════════════════════╗
-  ║  UNIVERSAL README TEMPLATE                                       ║
-  ║  1. Find & replace the placeholders: PROJECT_NAME, YOUR_USERNAME,║
-  ║     REPO_NAME, and the text inside [brackets].                   ║
-  ║  2. Delete any section you don't need (all sections are          ║
-  ║     independent).                                                ║
-  ║  3. Delete these HTML comments when you're done.                 ║
-  ╚══════════════════════════════════════════════════════════════════╝
--->
-
 <div align="center">
 
-<!-- Logo: put a square image in /assets and keep it ~120px wide. Delete if none. -->
-<img src="assets/logo.png" alt="PROJECT_NAME logo" width="120" height="120" />
-
-# PROJECT_NAME
-
-**One sentence that explains what this project does and why it matters.**
-
-[Demo](#-demo) · [Features](#-features) · [Quick Start](#-quick-start) · [Documentation](#-documentation) · [Roadmap](#-roadmap) · [Contributing](#-contributing)
+<!-- Optional: put a square logo at assets/logo.png (about 120px). Delete these 3 lines if you have none. -->
+<img src="assets/logo.png" alt="Project logo" width="120" height="120" />
 
 <br />
 
-[![Release](https://img.shields.io/github/v/release/YOUR_USERNAME/REPO_NAME?style=for-the-badge&color=ff6f4e)](https://github.com/YOUR_USERNAME/REPO_NAME/releases)
-[![License](https://img.shields.io/github/license/YOUR_USERNAME/REPO_NAME?style=for-the-badge&color=2ea44f)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/REPO_NAME?style=for-the-badge&color=f5c542)](https://github.com/YOUR_USERNAME/REPO_NAME/stargazers)
-[![Issues](https://img.shields.io/github/issues/YOUR_USERNAME/REPO_NAME?style=for-the-badge&color=e5484d)](https://github.com/YOUR_USERNAME/REPO_NAME/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-8a63d2?style=for-the-badge)](CONTRIBUTING.md)
+# Project Name
 
-<!-- Optional: CI / coverage badges
-[![Build](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/REPO_NAME/ci.yml?style=for-the-badge)](https://github.com/YOUR_USERNAME/REPO_NAME/actions)
--->
+**One clear sentence that explains what this project does and why it matters.**
+
+[Features](#-features) · [Quick Start](#-quick-start) · [Usage](#-usage) · [Configuration](#-configuration) · [Roadmap](#-roadmap) · [Contributing](#-contributing)
 
 <br />
 
-<!-- Hero image or GIF: the first thing visitors see. 1200×630 works well. -->
-<img src="assets/hero.png" alt="PROJECT_NAME screenshot" width="860" />
+![License](https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-8a63d2?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-ff6f4e?style=for-the-badge)
+![Made with Love](https://img.shields.io/badge/Made_with-❤-e5484d?style=for-the-badge)
+
+<br />
+
+<!-- Optional hero image or GIF (1200×630 works well). Delete if none. -->
+<img src="assets/hero.png" alt="Project preview" width="860" />
 
 </div>
 
@@ -45,51 +31,49 @@
 
 - [About](#-about)
 - [Features](#-features)
-- [Demo](#-demo)
+- [Preview](#-preview)
 - [Tech Stack](#-tech-stack)
 - [Quick Start](#-quick-start)
 - [Usage](#-usage)
 - [Configuration](#-configuration)
 - [Project Structure](#-project-structure)
-- [Documentation](#-documentation)
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [Security](#-security)
 - [License](#-license)
-- [Acknowledgments](#-acknowledgments)
-- [Contact](#-contact)
+- [Author](#-author)
 
 ---
 
 ## 💡 About
 
-Explain the project in 3 to 5 sentences:
+Describe the project in three to five sentences:
 
-- **The problem:** what pain point or gap does it address?
-- **The solution:** what does PROJECT_NAME do differently?
+- **The problem:** what gap or pain point does it address?
+- **The solution:** what does this project do differently?
 - **Who it's for:** developers, designers, students, teams, everyone?
 
-> **Why this exists:** a short, honest line about your motivation. People connect with the story.
+> **Why it exists:** one honest line about the motivation. People connect with the story.
 
 ---
 
 ## ✨ Features
 
-- ⚡ **Fast** — short description of a key strength.
-- 🎨 **Beautiful** — short description of a key strength.
-- 🔒 **Private** — short description of a key strength.
-- 🌍 **Multilingual** — short description of a key strength.
+- ⚡ **Fast** — what makes it quick.
+- 🎨 **Beautiful** — what makes it pleasant to use.
+- 🔒 **Private** — how it protects user data.
+- 🌍 **Multilingual** — languages and RTL support.
 - 📱 **Responsive** — works on phone, tablet and desktop.
-- 🧩 **Extensible** — short description of a key strength.
+- 🧩 **Extensible** — how others can build on it.
 
 <details>
-<summary><b>See the full feature list</b></summary>
+<summary><b>Full feature list</b></summary>
 
 <br />
 
 | Area | What you get |
 | --- | --- |
-| Core | Feature one, feature two, feature three |
+| Core | Main capabilities |
 | Interface | Light and dark mode, keyboard shortcuts, accessibility |
 | Data | Import, export, local storage, backups |
 | Developer | Typed API, plugins, CLI |
@@ -98,7 +82,7 @@ Explain the project in 3 to 5 sentences:
 
 ---
 
-## 🎬 Demo
+## 🎬 Preview
 
 <div align="center">
 
@@ -106,11 +90,9 @@ Explain the project in 3 to 5 sentences:
 | :---: | :---: |
 | <img src="assets/screenshot-1.png" alt="Screenshot 1" width="420" /> | <img src="assets/screenshot-2.png" alt="Screenshot 2" width="420" /> |
 
-**🔗 Live demo:** [your-demo-link.example](https://your-demo-link.example)
-
 </div>
 
-<!-- A short GIF of the main flow is worth more than a page of text.
+<!-- A short GIF of the main flow beats a page of text:
 ![Demo](assets/demo.gif) -->
 
 ---
@@ -128,7 +110,7 @@ Explain the project in 3 to 5 sentences:
 
 </div>
 
-<!-- Keep only the badges you actually use. Browse more at https://shields.io and https://simpleicons.org -->
+<!-- Keep only what you use. More badges: https://shields.io · logos: https://simpleicons.org -->
 
 ---
 
@@ -144,8 +126,8 @@ Explain the project in 3 to 5 sentences:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-cd REPO_NAME
+git clone <repository-url>
+cd <project-folder>
 
 # 2. Install dependencies
 npm install
@@ -160,7 +142,7 @@ npm run dev
 Open **http://localhost:3000** and you're in. 🎉
 
 <details>
-<summary><b>Other package managers / Python / Docker</b></summary>
+<summary><b>Other package managers, Python and Docker</b></summary>
 
 <br />
 
@@ -181,8 +163,8 @@ pip install -r requirements.txt
 python main.py
 
 # Docker
-docker build -t REPO_NAME .
-docker run -p 3000:3000 REPO_NAME
+docker build -t my-app .
+docker run -p 3000:3000 my-app
 ```
 
 </details>
@@ -191,10 +173,10 @@ docker run -p 3000:3000 REPO_NAME
 
 ## 🧪 Usage
 
-Show the smallest example that proves the project works:
+Show the smallest example that proves it works:
 
 ```ts
-import { something } from "PROJECT_NAME";
+import { something } from "your-package";
 
 const result = something({ option: true });
 console.log(result);
@@ -219,7 +201,7 @@ Copy `.env.example` to `.env` and fill in the values:
 | Variable | Required | Default | Description |
 | --- | :---: | --- | --- |
 | `PORT` | No | `3000` | Port the server listens on |
-| `DATABASE_URL` | Yes | — | Connection string for the database |
+| `DATABASE_URL` | Yes | — | Database connection string |
 | `API_KEY` | Yes | — | Key for the external service |
 | `NODE_ENV` | No | `development` | `development` or `production` |
 
@@ -230,12 +212,12 @@ Copy `.env.example` to `.env` and fill in the values:
 ## 🗂️ Project Structure
 
 ```text
-REPO_NAME/
-├── assets/            # images, logos, screenshots for this README
+project/
+├── assets/            # images and screenshots used in this README
 ├── src/
 │   ├── components/    # reusable UI pieces
 │   ├── lib/           # helpers and core logic
-│   ├── pages/         # routes / screens
+│   ├── pages/         # routes and screens
 │   └── styles/        # global styles
 ├── tests/             # automated tests
 ├── docs/              # extra documentation
@@ -247,26 +229,16 @@ REPO_NAME/
 
 ---
 
-## 📚 Documentation
-
-- 📘 [Getting started guide](docs/getting-started.md)
-- 🧭 [Architecture overview](docs/architecture.md)
-- 🔌 [API reference](docs/api.md)
-- ❓ [FAQ](docs/faq.md)
-- 🕘 [Changelog](CHANGELOG.md)
-
----
-
 ## 🗺️ Roadmap
 
 - [x] Initial release
 - [x] Core features
-- [ ] Feature coming next
+- [ ] Next planned feature
 - [ ] Another planned feature
 - [ ] Performance improvements
 - [ ] Translations
 
-Have an idea? [Open a feature request](https://github.com/YOUR_USERNAME/REPO_NAME/issues/new). See all [open issues](https://github.com/YOUR_USERNAME/REPO_NAME/issues) for what's planned.
+Have an idea? [Open an issue](../../issues) and tell us.
 
 ---
 
@@ -274,27 +246,21 @@ Have an idea? [Open a feature request](https://github.com/YOUR_USERNAME/REPO_NAM
 
 Contributions make open source great, and every one is **appreciated**.
 
-1. **Fork** the project
+1. **Fork** the repository
 2. **Create** your branch: `git checkout -b feature/amazing-feature`
 3. **Commit** your changes: `git commit -m "Add amazing feature"`
-4. **Push** to the branch: `git push origin feature/amazing-feature`
+4. **Push** the branch: `git push origin feature/amazing-feature`
 5. **Open** a Pull Request
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md) first.
-
-### Contributors
-
-<a href="https://github.com/YOUR_USERNAME/REPO_NAME/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=YOUR_USERNAME/REPO_NAME" alt="Contributors" />
-</a>
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md) first.
 
 ---
 
 ## 🔐 Security
 
-Found a vulnerability? Please **do not** open a public issue. Report it privately through
-[GitHub Security Advisories](https://github.com/YOUR_USERNAME/REPO_NAME/security/advisories/new)
-or by email at `security@your-domain.example`.
+Found a vulnerability? Please **do not** open a public issue.
+Report it privately through the repository's [Security Advisories](../../security/advisories/new)
+or by email at [abaalzhra44@gmail.com](mailto:abaalzhra44@gmail.com).
 
 ---
 
@@ -302,34 +268,32 @@ or by email at `security@your-domain.example`.
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
-<!-- Using another license? Change this line, the badge at the top, and the LICENSE file. -->
-
 ---
 
-## 🙏 Acknowledgments
-
-- [Project or person that inspired you](https://example.com)
-- [A library you rely on](https://example.com)
-- [Resources, icons, fonts, tutorials](https://example.com)
-
----
-
-## 📬 Contact
-
-**Your Name** — [@your_handle](https://twitter.com/your_handle) · [your@email.example](mailto:your@email.example)
-
-Project link: [github.com/YOUR_USERNAME/REPO_NAME](https://github.com/YOUR_USERNAME/REPO_NAME)
+## 👤 Author
 
 <div align="center">
+
+<a href="https://github.com/tarek-nv">
+  <img src="https://github.com/tarek-nv.png" alt="TAREK" width="110" height="110" />
+</a>
+
+### TAREK
+
+**[@tarek-nv](https://github.com/tarek-nv)** · TypeScript developer
+
+*"He who lives to please everyone dies dissatisfied with himself."* 🖤
+
+📧 [abaalzhra44@gmail.com](mailto:abaalzhra44@gmail.com)
 
 <br />
 
 **If this project helped you, please consider giving it a ⭐**
 
-<sub>Made with ❤️ by [YOUR_USERNAME](https://github.com/YOUR_USERNAME)</sub>
+<sub>Made with ❤️ by [TAREK](https://github.com/tarek-nv)</sub>
 
 <br />
 
-<a href="#project_name">⬆ Back to top</a>
+<a href="#project-name">⬆ Back to top</a>
 
 </div>
