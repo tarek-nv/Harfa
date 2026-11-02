@@ -1,0 +1,6 @@
+{
+  "name": "Harfa — حِرفة | Vector Font Studio",
+  "description": "Bilingual Arabic and English SVG-to-TTF typeface design studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
